@@ -1,0 +1,136 @@
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f1f1f1;
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin: 0 auto;
+	max-width: 500px;
+	text-align: center;
+}
+
+h1 {
+	color: #333;
+	text-align: center;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	width: 70%;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+	margin-left: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+li {
+	margin: 5px;
+	padding: 10px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+li:hover {
+	background-color: #e6e6e6;
+}
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  #task {
+    font-size: 1.2em;
+    padding: 5px;
+  }
+  
+  #add {
+    font-size: 1.2em;
+    padding: 5px 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .completed-btn,
+  .delete-btn {
+    font-size: 0.8em;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  .completed-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
